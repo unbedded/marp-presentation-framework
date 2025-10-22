@@ -1,0 +1,16 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#3498db"/>
+  
+  <!-- Icon: Presentation screen -->
+  <rect x="100" y="80" width="200" height="140" fill="#ffffff" rx="5"/>
+  
+  <!-- Slide lines -->
+  <line x1="120" y1="110" x2="280" y2="110" stroke="#3498db" stroke-width="4"/>
+  <line x1="120" y1="135" x2="260" y2="135" stroke="#3498db" stroke-width="3"/>
+  <line x1="120" y1="155" x2="270" y2="155" stroke="#3498db" stroke-width="3"/>
+  <line x1="120" y1="175" x2="240" y2="175" stroke="#3498db" stroke-width="3"/>
+  
+  <!-- Text -->
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Your Logo Here</text>
+</svg>

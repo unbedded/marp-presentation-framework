@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    SVG Generation Workflow
+  </text>
+
+  <!-- Step 1: Text Description -->
+  <rect x="50" y="80" width="200" height="100" rx="10" fill="#3498db" stroke="#2c3e50" stroke-width="2"/>
+  <text x="150" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">
+    1. Text Description
+  </text>
+  <text x="150" y="145" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+    "Draw 3-box arch"
+  </text>
+
+  <!-- Arrow 1 -->
+  <line x1="250" y1="130" x2="290" y2="130" stroke="#2c3e50" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 2: AI Generates SVG -->
+  <rect x="300" y="80" width="200" height="100" rx="10" fill="#2ecc71" stroke="#2c3e50" stroke-width="2"/>
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">
+    2. AI Generates
+  </text>
+  <text x="400" y="145" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+    Clean SVG code
+  </text>
+
+  <!-- Arrow 2 -->
+  <line x1="500" y1="130" x2="540" y2="130" stroke="#2c3e50" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 3: Visual Output -->
+  <rect x="550" y="80" width="200" height="100" rx="10" fill="#9b59b6" stroke="#2c3e50" stroke-width="2"/>
+  <text x="650" y="120" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">
+    3. Visual Output
+  </text>
+  <text x="650" y="145" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+    source/images/
+  </text>
+
+  <!-- Benefits box -->
+  <rect x="150" y="240" width="500" height="120" rx="10" fill="#ecf0f1" stroke="#95a5a6" stroke-width="2"/>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Benefits
+  </text>
+  <text x="180" y="300" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">
+    ✓ Text-based (version control friendly)
+  </text>
+  <text x="180" y="325" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">
+    ✓ No external dependencies (no matplotlib/pyplot)
+  </text>
+  <text x="180" y="350" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">
+    ✓ Scales perfectly at any size
+  </text>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#2c3e50"/>
+    </marker>
+  </defs>
+</svg>
