@@ -1,0 +1,82 @@
+# LAM Research EE5 Interview - Git Ignore
+
+# Artifacts directory (generated outputs)
+artifacts/
+# EXCEPTION: Phase gate rubric reports are versioned (capture state at phase completion)
+!artifacts/rubric-reports/
+!artifacts/rubric-reports/*.md
+# EXCEPTION: BOMs and architecture docs are versioned (SSOT-derived outputs)
+!artifacts/bom/
+!artifacts/bom/*.csv
+!artifacts/architecture*.md
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bbl
+*.blg
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Sensitive information (if any)
+*.key
+*.pem
+credentials.json
+.env
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Archived files (OLD pattern only, not _obsolete directories)
+**/*.OLD
+
+# Marp generated files (regenerate with 'make marp')
+artifacts/presentation-marp.html
+artifacts/presentation-marp.pdf
+source/presentation-marp.pptx
+source/presentation-marp.html
+
+# Keep source Markdown in git:
+# source/presentation-marp.md ← This STAYS in git
+*.~lock.*
